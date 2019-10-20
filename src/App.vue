@@ -4,7 +4,11 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <v-app>
+      <v-content transition="slide-x-transition">
+        <router-view/>
+      </v-content>
+    </v-app>
   </div>
 </template>
 
