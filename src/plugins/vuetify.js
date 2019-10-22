@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Vuetify, { VApp, VContent, VCol, VIcon, VRow, VCard, VSlider, VHover } from 'vuetify/lib';
+import Vuetify, { VApp, VContent, VCol, VIcon, VRow, VCard, VSlider, VHover, VMenu, VList, VListItem } from 'vuetify/lib';
 import 'vuetify/dist/vuetify.min.css';
 import 'font-awesome/css/font-awesome.min.css'
 import colors from 'vuetify/lib/util/colors'
@@ -14,6 +14,9 @@ Vue.use(Vuetify, {
     VCard,
     VSlider,
     VHover,
+    VMenu,
+    VList,
+    VListItem
   }
 });
 
