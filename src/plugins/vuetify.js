@@ -14,7 +14,14 @@ import Vuetify, {
                 VAlert,
                 VBtn,
                 VDivider,
-                VSpacer
+                VSpacer,
+                VResponsive,
+                VCardText,
+                VAvatar,
+                VImg,
+                VListItemContent,
+                VListItemTitle,
+                VListItemSubtitle,
               } from 'vuetify/lib';
 import 'vuetify/dist/vuetify.min.css';
 import 'font-awesome/css/font-awesome.min.css'
@@ -36,7 +43,14 @@ Vue.use(Vuetify, {
     VAlert,
     VBtn,
     VDivider,
-    VSpacer
+    VSpacer,
+    VResponsive,
+    VCardText,
+    VAvatar,
+    VImg,
+    VListItemContent,
+    VListItemTitle,
+    VListItemSubtitle,
   }
 });
 
