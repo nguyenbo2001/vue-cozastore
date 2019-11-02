@@ -32,6 +32,12 @@ import Vuetify, {
                 VBadge,
                 VSwitch,
                 VSelect,
+                VBanner,
+                VSheet,
+                VSystemBar,
+                VToolbar,
+                VToolbarTitle,
+                VCheckbox,
               } from 'vuetify/lib';
 import 'vuetify/dist/vuetify.min.css';
 import 'font-awesome/css/font-awesome.min.css'
@@ -71,6 +77,12 @@ Vue.use(Vuetify, {
     VBadge,
     VSwitch,
     VSelect,
+    VBanner,
+    VSheet,
+    VSystemBar,
+    VToolbar,
+    VToolbarTitle,
+    VCheckbox,
   }
 });
 

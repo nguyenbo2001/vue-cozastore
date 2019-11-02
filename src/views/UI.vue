@@ -6,6 +6,8 @@
 
     <badge/>
 
+    <banner/>
+
   </div>
 </template>
 
@@ -13,12 +15,14 @@
 import Alert from '../components/Alert.vue'
 import Avatar from '../components/Avatar.vue'
 import Badge from '../components/Badge.vue'
+import Banner from '../components/Banner.vue'
 
 export default {
   components: {
     Alert,
     Avatar,
-    Badge
+    Badge,
+    Banner,
   },
   data: () => ({
 
