@@ -29,6 +29,9 @@ import Vuetify, {
                 VExpansionPanelContent,
                 VExpansionPanelHeader,
                 VChip,
+                VBadge,
+                VSwitch,
+                VSelect,
               } from 'vuetify/lib';
 import 'vuetify/dist/vuetify.min.css';
 import 'font-awesome/css/font-awesome.min.css'
@@ -65,6 +68,9 @@ Vue.use(Vuetify, {
     VExpansionPanelContent,
     VExpansionPanelHeader,
     VChip,
+    VBadge,
+    VSwitch,
+    VSelect,
   }
 });
 
