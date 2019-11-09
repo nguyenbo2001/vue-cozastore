@@ -38,6 +38,10 @@ import Vuetify, {
                 VToolbar,
                 VToolbarTitle,
                 VCheckbox,
+                VAppBar,
+                VAppBarNavIcon,
+                VTab,
+                VTabs,
               } from 'vuetify/lib';
 import 'vuetify/dist/vuetify.min.css';
 import 'font-awesome/css/font-awesome.min.css'
@@ -83,6 +87,10 @@ Vue.use(Vuetify, {
     VToolbar,
     VToolbarTitle,
     VCheckbox,
+    VAppBar,
+    VAppBarNavIcon,
+    VTab,
+    VTabs,
   }
 });
 

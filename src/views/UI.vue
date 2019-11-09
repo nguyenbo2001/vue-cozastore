@@ -8,6 +8,8 @@
 
     <banner/>
 
+    <bars />
+
   </div>
 </template>
 
@@ -16,6 +18,7 @@ import Alert from '../components/Alert.vue'
 import Avatar from '../components/Avatar.vue'
 import Badge from '../components/Badge.vue'
 import Banner from '../components/Banner.vue'
+import Bars from '../components/Bars.vue'
 
 export default {
   components: {
@@ -23,6 +26,7 @@ export default {
     Avatar,
     Badge,
     Banner,
+    Bars,
   },
   data: () => ({
 
